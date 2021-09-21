@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact: My Summer Activities</title>
+		<link rel="stylesheet" href="css/styles.css">
+	<!--HTML content-->
+	</head>
+	<body>
+		<div id="page">
+			<!--Nav bar-->
+			<div class="menu-holder">
+				<nav id="header-main-menu">
+					<ul class="main-menu ">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="schedule.html">Courses</a>
+						</li>
+						<li>
+							<a href="index.html">About</a>
+						</li>
+						<li>
+							<a href="index.html">Hobbies</a>
+						</li>
+						<li>
+							<a href="index.html">Blog</a>
+						</li>
+						<li>
+							<a href="activities.html">Activities</a>
+						</li>
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<!--Div break-->
+			<br/>
+			<!--Header-->
+			<h1 class= "center-text"> My Location </h1>
+			<!--"Contact me" form-->
+			<div class = "center-mid-3">
+				<form action="http://www.example.com/form.php" method="get">
+					<fieldset >
+						<legend class = "center-3"> Contact Me</legend>
+						<p><label class="title" for="name">Your name:</label>
+							<input type="text" name="name" id="name"><br />
+							<label class="title" for="email">Your email:</label>
+							<input type="text" name="email" id="email"></p>
+							<span class="title">Are you in Pittsburgh?</span>
+							<label><input type="radio" name="here" value="yes" /> Yes</label>
+							<label><input type="radio" name="here" value="no" /> No</label></p>
+						<p><label for="location" class="title">If yes, your closest university:</label>
+							<select name="location" id="location">
+								<option value="none">N/A</option>
+								<option value="cmu">CMU</option>
+								<option value="pitt">Pitt</option>
+								<option value="duquesne">Duquesne</option>
+							</select></p>
+					</fieldset>
+					<div class="submit"><input type="submit" value="Submit" /></div>
+				</form>
+			</div>
+			<!-- embed map HTML copied from Google Maps: Fifth and Clyde Residence Hall-->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.2491558435718!2d-79.94783408447155!3d40.447622079361494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f365dc19ec57%3A0xf40fccb468070a47!2sFifth%20and%20Clyde%20Residence%20Hall!5e0!3m2!1sen!2sus!4v1632182635480!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			<!--Footer-->
+			<footer class="footer">
+				<div>
+					<p> © 2021 </p>
+					<div class="socialmedia"> 
+						<a href="#">
+							<span class="twitter"> <img class= "smlogo" src="img/f081.png"/></span>
+						</a> 
+						<a href="#">
+							<span class="facebook"> <img class= "smlogo" src="img/f082.png"/></span>
+						</a> 
+						<a href="#">
+							<span class="fa fa-pinterest-p"> <img class= "smlogo" src="img/f083.png"/> </span>
+						</a> 
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
